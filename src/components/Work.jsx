@@ -29,7 +29,7 @@ const Work = () => {
     }
   ]
   return (
-    <div className='py-12'>
+    <div id='work' className='py-12'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <h2 className='text-4xl text-white underline font-bold text-center mb-12'>My Work</h2>
         <p className='mb-12 text-gray-400 text-center'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas quibusdam nemo tempore provident quis soluta.</p>

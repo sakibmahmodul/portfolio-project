@@ -3,7 +3,8 @@ import { motion } from 'motion/react';
 
 const Companies = () => {
   const companies = [
-    "Uber Eats", "Twitch", "Twitter", "Tesla", "Spotify", "Snapchat", "Slack", "Samsung", "Salesforce"
+    "Uber Eats", "Twitch", "Twitter", "Tesla", "Spotify", "Snapchat", "Slack", "Samsung", "Salesforce", "Reddit",
+    "Pinterest", "PayPal", "Netflix", "Meta", "LinkedIn", "Lyft", "IBM", "Google", "Facebook", "Dropbox"
   ];
 
   // Duplicate the companies list for seamless scrolling

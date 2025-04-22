@@ -1,6 +1,7 @@
 import React from 'react'
 import pic from '../assets/pic.png'
 import {motion} from 'motion/react'
+import { Link } from 'react-scroll'
 
 const Hero = () => {
   return (
@@ -37,12 +38,12 @@ const Hero = () => {
           initial={{opacity: 0, x: -100}}
           animate={{opacity: 1, x: 0}}
           transition={{delay: 1.5, duration: .5}}
-          className='bg-purple-500 text-white px-6 py-3 rounded-full'>Hire Me</motion.button>
+          className='bg-purple-500 text-white px-6 py-3 rounded-full'><Link to='contact' smooth={true} duration={500} offset={-70}>Hire Me</Link></motion.button>
           <motion.button
           initial={{opacity: 0, x: 100}}
           animate={{opacity: 1, x: 0}}
           transition={{delay: 1.5, duration: .5}}
-          className='text-white border border-white px-6 py-3 rounded-full'>My Story</motion.button>
+          className='text-white border border-white px-6 py-3 rounded-full'><Link to='about' smooth={true} duration={500} offset={-70}>My Story</Link></motion.button>
         </div>
         
       </motion.div>

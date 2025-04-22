@@ -32,7 +32,7 @@ function About() {
   });
 
   return (
-    <div className="text-white py-16">
+    <div id='about' className="text-white py-16">
       <div className="container mx-auto px-4 text-center" ref={ref}>
         <motion.h2
           initial={{ opacity: 0, y: 100 }}

@@ -40,7 +40,7 @@ const Services = () => {
         triggerOnce: true // Only trigger once
       });
   return (
-    <div className='text-white py-16' ref={ref}>
+    <div id='services' className='text-white py-16' ref={ref}>
       <motion.div
       initial={{opacity: 0, y: 50}}
       animate={inView ? {opacity: 1, y: 0} : {}}
