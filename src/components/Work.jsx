@@ -8,17 +8,17 @@ const Work = () => {
   const projects = [
     {
       id: 1,
-      title: 'Project 1',
+      title: 'Ebook Reading Platform',
       image: project1,
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      link: '#'
+      description: 'Built a dynamic eBook shop using Next.js, Typescript & Tailwind CSS. Features include PDF viewing with react-pdf, SEO-friendly URLs. Used Framer Motion to implement interactive animation.',
+      link: 'https://ebook-store-beige.vercel.app/'
     },
     {
       id: 2,
-      title: 'Project 2',
+      title: 'Gym Landing Page',
       image: project2,
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      link: '#'
+      description: 'Built a gym landing page with HTML, CSS, and vanilla JavaScript to solidify fundamental front-end development skills.',
+      link: 'https://fanciful-sunshine-5ab832.netlify.app/'
     },
     {
       id: 3,

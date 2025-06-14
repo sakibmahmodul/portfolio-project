@@ -3,7 +3,7 @@ import { AiOutlineMenu } from 'react-icons/ai';
 import { IoCloseSharp } from 'react-icons/io5';
 import { motion } from 'motion/react';
 import { Link } from 'react-scroll';
-import cv from '../assets/Mahhmodul_Hasan_Resume_Scale.pdf'; // Assuming you have a CV file in the assets folder
+import cv from '../assets/Mahmodul_Hasan_Sakib_Resume.pdf'; // Assuming you have a CV file in the assets folder
 const Navbar = () => {
   const variants = {
     open: {
