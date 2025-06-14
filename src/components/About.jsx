@@ -48,7 +48,12 @@ function About() {
           transition={{ delay: 0.5, duration: 0.5 }}
           className="mb-12 text-gray-400 text-center"
         >
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis ex ullam totam repellat non animi? Eligendi dolor modi voluptatem commodi necessitatibus eius, impedit, nulla cumque perspiciatis velit nam, voluptatum animi maiores! In fuga obcaecati mollitia illo doloremque nisi delectus sed porro, minus, vel aut corporis animi. Ea itaque laudantium vero.
+
+          Hello! I'm Sakib Mahmodul, a passionate and detail-oriented web developer. I enjoy building clean, user-friendly websites and love transforming ideas into real-life digital experiences.
+
+          My journey into web development started with curiosity and grew into a deep passion for learning new technologies. I specialize in front-end development using <strong>HTML, CSS, JavaScript</strong>, and modern frameworks like <strong>React.js and Next.js</strong>. I'm also comfortable working with <strong>MongoDB, Express.js</strong>, and building full-stack applications.
+
+          I am continuously learning and improving my skills, building real-world projects, and exploring new tools in the ever-evolving tech world.
         </motion.p>
         <div className="flex flex-col md:flex-row justify-center items-center gap-8">
           <motion.div
@@ -65,8 +70,10 @@ function About() {
             transition={{ delay: 0.6, duration: 0.5 }}
             className="md:w-1/2 text-gray-400 px-4 md:px-0 text-base sm:text-lg md:text-xl"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui numquam exercitationem, soluta perspiciatis blanditiis nostrum voluptatibus dignissimos laborum esse ratione veritatis dolore incidunt magnam. Quas alias sequi cupiditate quis iusto?
-          </motion.p>
+            Whether it’s crafting a responsive landing page or developing a full-featured web app, I strive for performance, accessibility, and good design.
+            🚀 Currently, I'm working on several personal projects and always looking for opportunities to grow and collaborate!
+
+            ---          </motion.p>
         </div>
         <div className="flex flex-col sm:flex-row justify-around items-center gap-8 mt-12 space-y-6 sm:space-y-0">
           {/* Using the reusable StatisticCard component */}

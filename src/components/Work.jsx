@@ -1,4 +1,3 @@
-import React from 'react'
 import project1 from '../assets/project1.jpg'
 import project2 from '../assets/project2.jpg'
 import project3 from '../assets/project3.jpg'
@@ -40,9 +39,12 @@ const Work = () => {
               <div className='p-6'>
                 <h3 className='text-xl text-white font-semibold mb-2'>{project.title}</h3>
                 <p className='text-slate-400 mb-4'>{project.description}</p>
-                <button className='border-2 border-purple-500 text-purple-500 px-4 py-2 rounded-full hover:bg-purple-500 hover:text-white transition'>Detail</button>
+                <a href={project.link} target='_blank' rel='noopener noreferrer'>
+
+                  <button className='border-2 border-purple-500 text-purple-500 px-4 py-2 rounded-full hover:bg-purple-500 hover:text-white transition'>Details</button>
+                </a>
               </div>
-              
+
             </div>
           ))}
         </div>
